@@ -10,6 +10,7 @@ module.exports = {
         fefefe: '#FEFEFE',
         // "1e1e1e": '1E1E1E',
         dark: '#1E1E1E',
+        darkGreen: '#0E3228',
       },
     },
   },
