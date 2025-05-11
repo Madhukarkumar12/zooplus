@@ -11,6 +11,7 @@ module.exports = {
         // "1e1e1e": '1E1E1E',
         dark: '#1E1E1E',
         darkGreen: '#0E3228',
+        background: "#F5F7F9",
       },
       fontFamily: {
         interTight: ["'Inter Tight'", "sans-serif"],
