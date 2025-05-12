@@ -1,18 +1,13 @@
 import React from 'react';
 import option from '../assets/option.png';
-// import zebra from '../assets/zebra.png';
-// import giraffe from '../assets/giraffe.png';
-// import ostrich from '../assets/ostrich.jpg';
-// import gazeles from '../assets/gazeles.jpg';
-// import field1 from '../assets/field1.jpg';
 import { cardData } from '../habitatinfo/HabitatInfo';
 
 const HabitatCard = () => {
     return (
-        <div className='flex flex-wrap gap-6 px-3 mt-6 justify-center mb-9'>
+        <div className=' flex flex-wrap gap-6 px-3 mt-6 mb-[50px] ml-[70px]'>
             {
                 cardData.map((item) => (
-                    <div className='flex '>
+                    <div className='py-3'>
                         <div className='w-[350px] h-[500px] rounded-[24px] border border-[#D3DCE4] bg-[#FEFEFE] shadow-[2px_4px_24px_0px_#1C240F0A] flex flex-col gap-2'>
                             <div className='flex justify-between px-3  mt-5'>
                                 <h1 className='w-auto h-[30px] font-interTight font-semibold text-[20px] leading-[30px] text-[#1E1E1E]'>{item.heading}</h1>
