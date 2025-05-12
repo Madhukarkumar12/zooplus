@@ -4,7 +4,7 @@ import { cardData } from '../habitatinfo/HabitatInfo';
 
 const HabitatCard = () => {
     return (
-        <div className=' flex flex-wrap gap-6 px-3 mt-6 mb-[50px] ml-[70px]'>
+        <div className=' flex flex-wrap gap-6 px-3 mt-6 mb-[50px] ml-[85px]'>
             {
                 cardData.map((item) => (
                     <div className='py-3'>
