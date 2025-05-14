@@ -24,12 +24,10 @@ const COLORS = ["#8884d8", "#82ca9d", "#ffc658", "#ff8042", "#00C49F", "#A28EFF"
 
 const Analytics = () => {
   return (
-    <div className="w-full px-4 py-6 bg-white rounded-md shadow-md overflow-x-auto space-y-6">
-      <h2 className="text-xl font-semibold mb-4">Google Analytics</h2>
+    <div className="w-full px-4 py-6 bg-white rounded-md shadow-md overflow-x-auto space-y-6 mt-4 ">
 
-      {/* ✅ Line Chart */}
       <div className="min-w-[600px]">
-        <h3 className="text-lg font-medium mb-2">Habitat Views Over Time</h3>
+        <h3 className="text-lg font-medium font-interTight mb-2 ml-2">Habitat Views Over Time</h3>
         <ResponsiveContainer width="100%" height={300}>
           <LineChart data={chartData}>
             <XAxis dataKey="day" />
@@ -50,9 +48,9 @@ const Analytics = () => {
         </ResponsiveContainer>
       </div>
 
-      {/* ✅ Bar Chart */}
+      {/* Bar Chart */}
       <div className="min-w-[600px]">
-        <h3 className="text-lg font-medium mb-2">Weekly Habitat Comparison</h3>
+        <h3 className="text-lg font-medium font-interTight mb-2 ml-2">Weekly Habitat Comparison</h3>
         <ResponsiveContainer width="100%" height={300}>
           <BarChart data={chartData}>
             <XAxis dataKey="day" />
